@@ -1,0 +1,163 @@
+#sbar {
+    display: none;
+    z-index: 2;
+    width: 40%;
+    min-width: 300px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    transition: all 0.3s ease;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar .sidebar-heading {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.topbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.topbar a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.topbar a:hover {
+    background-color: #ddd;
+}
+
+.topbar h1 {
+    font-size: 36px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+}
+
+.topbar #logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 100px auto auto;
+    padding: 20px;
+}
+
+.main .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .column {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.row .column img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.row .column h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.row .column p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 32px 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.pagination a {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
